@@ -11,7 +11,7 @@ h1{
     
 }
 footer{
-    margin-top:10% ;
+    margin-top:15% ;
     font-family: sans-serif;
 }
 
@@ -61,4 +61,16 @@ footer{
     -moz-border-radius:;
     -ms-border-radius:;
     -o-border-radius:;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+@media (max-width:450px){
+
+    h1{
+        font-size: 3rem;
+    }
 }
